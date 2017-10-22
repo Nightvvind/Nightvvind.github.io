@@ -1,0 +1,147 @@
+@media (min-width: 1400px) {
+    body {
+		background-size: 1900px auto;
+	}
+	header {
+	    height: 272px;
+    }
+    div {
+	    height: 612px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+	body {
+		background-size: 1000px auto;
+	}
+    header {
+	    height: 142px;
+    }
+    h1 {
+	    font-size: 51px;
+	    margin: 32px 0 0 15%;
+    }
+    ul, p {
+        font-size: 11px;	
+    }
+    li a {
+	    padding: 0 7px;
+    }
+    div {
+	    height: 320px;
+    }
+    h2 {
+	    font-size: 17px;
+	    margin: 10px 0 0 0;
+    }
+    div > p {
+	    margin: 21px 0 0 0;
+    }
+    form {
+	    margin: 35px 0 0 10%;
+    }
+    h3 {
+	    font-size: 17px;
+	    margin: 35px 0 0 10%;
+    }
+    article a {
+	    margin: 35px 0 35px 10%;
+    }
+    footer ul {
+        margin: 35px 0;
+    }
+}
+
+
+@media (max-width: 700px) {
+	body {
+		background-size: 700px auto;
+	}
+    header {
+	    height: 100px;
+    }
+    h1 {
+	    font-size: 36px;
+	    margin: 22px 0 0 15%;
+    }
+    li a {
+	    padding: 0 5px;
+    }
+    div {
+	    height: 225px;
+    }
+    h2 {
+	    font-size: 12px;
+	    margin: 5px 0 0 0;
+    }
+    div > p {
+    	width: 72%;
+	    margin: 5px 0 0 0;
+    }
+    form {
+	    margin: 25px 0 0 10%;
+    }
+    h3 {
+	    font-size: 12px;
+	    margin: 25px 0 0 10%;
+    }
+    article a {
+	    margin: 25px 0 25px 10%;
+    }
+    footer ul {
+        margin: 25px 0;
+    }
+
+
+    @media (max-width: 400px) {
+	body {
+		background-position: 75% top;
+	}
+    header {
+	    height: 325px;
+	    text-align: center;
+    }
+    h1 {
+	    margin: 22px 0 0 0;
+	    text-align: center;
+    }
+    header ul {
+    	text-align: center;
+	    margin: 0;
+    }
+    li a {
+	    padding: 0 5px;
+    }
+    div {
+	    height: auto;
+    }
+    div > p {
+    	width: 100%;
+    }
+    form {
+	    margin: 25px 0 0 0;
+	    text-align: center;
+    }
+    h3 {
+	    font-size: 12px;
+	    margin: 25px 0 0 10%;
+    }
+    article a {
+    	width: 23%;
+	    margin: 25px 0 25px 15%;
+    }
+    .im1, .im2, .im3, .im4 {
+	    text-align: center;
+    }
+    footer ul {
+        margin: 25px 0;
+    }
+
+
+    @media (max-width: 200px) {
+    article a {
+    	width: 40%;
+	    margin: 25px 20% 25px 20%;
+    }
+}
