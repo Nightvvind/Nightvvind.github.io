@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {}
+
+.slider {
+    margin: 50px auto;
+    width: 140px;
+    height: auto;
+}
+.overflow {
+    overflow: hidden;
+    width: auto;
+    height: 140px;
+}
+#inner {
+    width: 400%;
+    height: auto;
+}
+.page {
+    float: left;
+    width: 25%;
+    height: auto;
+}
+
+img {
+    width: 140px;
+    height: 140px;
+    border-radius: 20px;
+}
+label {
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    background: linear-gradient(to top right, #eb6909, #aaa);
+    width: 30px;
+    height: 15px;
+}
+input {
+    display: none;
+}
+
+#swich1:checked ~ .slides #inner {
+    margin-left: 0;
+}
+#swich2:checked ~ .slides #inner {
+    margin-left: -100%;
+}
+#swich3:checked ~ .slides #inner {
+    margin-left: -200%;
+}
+#swich4:checked ~ .slides #inner {
+    margin-left: -300%;
+}
