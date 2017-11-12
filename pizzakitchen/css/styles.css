@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1920px;
+    min-width: 240px;
+    width: 100%;
+    height: auto;
+    background-image: url(../img/fon.png);
+}
+
+header {
+    margin: 0 auto;
+    max-width: 1920px;
+    min-width: 240px;
+    width: 100%;
+    height: auto;
+    font-size: 0;
+    padding-top: 30px;
+}
+
+.logo {
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    margin-left: 10%;
+}
+
+.logo img {
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+}
+
+.infophone {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: auto;
+}
+
+h1 {
+    font-size: 32px;
+    color: #ff6d01;
+    text-align: right;
+    text-shadow: 4px  4px 10px #000;
+}
+
+h4 {
+    margin-top: 50px;
+    color: #2e2e2e;
+    font-size: 16px;
+    text-shadow: 4px  4px 1px #aaa;
+}
+
+.main-menu {
+    margin-left: 10%;
+    width: 80%;
+    background: linear-gradient(to top, #ff6d01, #aaa);
+    border-radius: 10px;
+    list-style: none;
+    box-shadow: 4px 4px 4px 4px #aaa;
+}
+
+.main-menu > li {
+    display: inline-block;
+    width: 20%;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.sub-menu {
+    list-style: none;
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(to bottom, #ff6d01, #aaa);
+    max-width: 303.36px;
+    min-width: 37.92px;
+    width: 15.8%;
+    margin-top: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: none;
+}
+
+.sub-menu li {
+    padding: 10px 0;
+}
+
+.main-menu li:hover .sub-menu {
+    display: block;
+}
+
+header li a {
+    color: #2e2e2e;
+    text-decoration: none;
+}
+
+header li a:hover {
+    color: #fff;
+    text-shadow: 4px  4px 2px #000;
+}
+
+.borderright {
+    box-sizing: border-box;
+    border-right: 2px solid #2e2e2e;
+}
+
+article {
+    margin: 0 auto;
+    max-width: 1920px;
+    min-width: 240px;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    
+}
+
+.slider {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 0;
+    text-align: center;
+}
+
+.slider input {
+    display: none;
+}
+
+.inner img {
+    width: 20%;
+    height: auto;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+.control {
+    padding-bottom: 50px;
+}
+
+.control label {
+    margin: 5px 10px 0 10px;
+    display: inline-block;
+    border: 1px solid #aaa;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(to top right, #ff6d01, #aaa);
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+.overflow {
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 4px 4px 4px 4px #aaa;
+}
+
+.inner {
+    width: 500%;
+    transition: transform 0.9s ease;
+}
+
+#swich1:checked ~ .overflow .inner {
+    transform: translate(0);
+}
+#swich2:checked ~ .overflow .inner {
+    transform: translate(-20%);
+}
+#swich3:checked ~ .overflow .inner {
+    transform: translate(-40%);
+}
+#swich4:checked ~ .overflow .inner {
+    transform: translate(-60%);
+}
+#swich5:checked ~ .overflow .inner {
+    transform: translate(-80%);
+}
+
+#swich1:checked ~ .control .put1,
+#swich2:checked ~ .control .put2,
+#swich3:checked ~ .control .put3,
+#swich4:checked ~ .control .put4,
+#swich5:checked ~ .control .put5 {
+    opacity: 1;
+}
+
+#swich1:checked ~ .row .row5,
+#swich2:checked ~ .row .row1,
+#swich3:checked ~ .row .row2,
+#swich4:checked ~ .row .row3,
+#swich5:checked ~ .row .row4 {
+    float: left;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 15px solid #ff6d01;
+    border-bottom: 15px solid transparent;
+    cursor: pointer;
+}
+
+#swich1:checked ~ .row .row2,
+#swich2:checked ~ .row .row3,
+#swich3:checked ~ .row .row4,
+#swich4:checked ~ .row .row5,
+#swich5:checked ~ .row .row1 {
+    float: right;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 15px solid #ff6d01;
+    border-bottom: 15px solid transparent;
+    cursor: pointer;
+}
+
+.infokitchen {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    box-shadow: 0px 20px 10px -5px #aaa;
+}
+
+.infokitchen p {
+    margin: 10px 0;
+}
+
+.infokitchen img {
+    max-width: 200px;
+    min-width: 100px;
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 4px 1px #000;
+}
+
+footer {
+    margin: 0 auto;
+    max-width: 1920px;
+    min-width: 240px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 0;
+}
+
+footer img {
+    border-radius: 5px;
+    margin: 20px 5px;
+    max-width: 25px;
+    box-shadow: 1px 1px 1px 1px #000;
+}

@@ -1,0 +1,202 @@
+@media (max-width: 1024px) {
+
+.control label {
+    margin: 10px 2px 0 2px;
+    width: 12px;
+    height: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+
+h1 {
+    font-size: 20px;
+    }
+
+h4 {
+    font-size: 14px;
+    }
+
+.main-menu {
+    margin-top: 10px;
+    margin-left: 10%;
+    width: 80%;
+    }
+
+.main-menu > li {
+    width: 25%;
+    font-size: 11px;
+    }
+
+.borderright {
+    border-right: 1px solid #2e2e2e;
+    }
+
+.main-menu > .donotdisplay {
+    display: none;
+    }
+
+.sub-menu {
+    width: 19.8%;
+    margin-top: 2px;
+}
+
+.row {
+    display: none;
+    }
+
+.control {
+    padding-bottom: 10px;
+    }
+
+.control label {
+    margin: 10px 2px 0 2px;
+    width: 12px;
+    height: 12px;
+    }
+
+.infokitchen p {
+    font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+
+header {
+    padding-top: 10px;
+    }
+
+.logo {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    }
+
+.infophone {
+    width: 100%;
+    }
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    }
+
+h4 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    }
+
+.main-menu {
+    margin-top: 10px;
+    margin-left: 10%;
+    width: 80%;
+    }
+
+.main-menu > li {
+    width: 25%;
+    font-size: 11px;
+    }
+
+.borderright {
+    border-right: 1px solid #2e2e2e;
+    }
+
+.main-menu > .donotdisplay {
+    display: none;
+    }
+
+.sub-menu {
+    width: 19.6%;
+    margin-top: 2px;
+}
+
+.row {
+    display: none;
+    }
+
+.control {
+    padding-bottom: 10px;
+    }
+
+.control label {
+    margin: 10px 2px 0 2px;
+    width: 12px;
+    height: 12px;
+    }
+
+.infokitchen p {
+    font-size: 14px;
+    }
+}
+
+@media (max-width: 240px) {
+
+header {
+    padding-top: 10px;
+    }
+
+.logo {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+    }
+
+.infophone {
+    width: 100%;
+    }
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    }
+
+h4 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    }
+
+.main-menu {
+    margin-top: 10px;
+    margin-left: 10%;
+    width: 80%;
+    }
+
+.main-menu > li {
+    width: 25%;
+    font-size: 11px;
+    }
+
+.borderright {
+    border-right: 1px solid #2e2e2e;
+    }
+
+.main-menu > .donotdisplay {
+    display: none;
+    }
+
+.sub-menu {
+    min-width: 47px;
+    width: 21%;
+    margin-top: 2px;
+}
+
+.row {
+    display: none;
+    }
+
+.control {
+    padding-bottom: 10px;
+    }
+
+.control label {
+    margin: 10px 2px 0 2px;
+    width: 12px;
+    height: 12px;
+    }
+
+.infokitchen p {
+    font-size: 14px;
+    }
+}
